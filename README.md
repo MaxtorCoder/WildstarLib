@@ -4,6 +4,7 @@
 | Filename | Description | Parsed |
 |----|----|----|
 | .M3 | Model file | % |
+| .index | Data File | %|
 
 | M3 | Description | Parsed |
 |----|----|----|

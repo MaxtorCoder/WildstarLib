@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using WildstarLib.Format.Archive.Index;
 using WildstarLib.Format.M3;
 
 namespace WildstarLib
@@ -12,9 +9,9 @@ namespace WildstarLib
         static void Main(string[] args)
         {
             //string dataPath = @"D:\Wildstar\Wildstar Studio\Art\Mount\Chua\PRP_Mount_Chua_000.m3";
-            string dataPath = @"D:\Wildstar\Wildstar Studio\Art\NPC\Ekose\GrannyAdina_Ekose\GrannyAdina_Ekose.m3";
+            string dataPath = @"C:\Program Files (x86)\NCSOFT\WildStar\Patch\ClientData.index";
 
-            M3Main.Process(dataPath);
+            MainReader.Process(dataPath);
 
             Console.ReadLine();
         }
