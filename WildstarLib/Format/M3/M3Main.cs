@@ -30,10 +30,7 @@ namespace WildstarLib.Format.M3
                 using (FileStream stream = File.OpenRead(dataPath))
                 using (BinaryReader reader = new BinaryReader(stream))
                 {
-                    //while (stream.Position < stream.Length)
-                    //{
-                        M3Reader.ReadHeader(reader);
-                    //}
+                    M3Reader.ReadHeader(reader);
                 }
             }
             else

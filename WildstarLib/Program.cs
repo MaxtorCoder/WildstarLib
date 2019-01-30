@@ -11,7 +11,8 @@ namespace WildstarLib
     {
         static void Main(string[] args)
         {
-            string dataPath = @"D:\Wildstar\Wildstar Studio\Art\Mount\Chua\PRP_Mount_Chua_000.m3";
+            //string dataPath = @"D:\Wildstar\Wildstar Studio\Art\Mount\Chua\PRP_Mount_Chua_000.m3";
+            string dataPath = @"D:\Wildstar\Wildstar Studio\Art\NPC\Ekose\GrannyAdina_Ekose\GrannyAdina_Ekose.m3";
 
             M3Main.Process(dataPath);
 
