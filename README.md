@@ -1,5 +1,6 @@
-##Wildstar Reading Library (C#)
+# Wildstar Reading Library (C#)
 
+### Current Progress : 
 | Filename | Description | Parsed |
 |----|----|----|
 | .M3 | Model file | % |
